@@ -1,0 +1,29 @@
+
+This Program is to Analyse the Network Traffics in the All Friehgt Corporation Network.
+Given three different type of the Log files - Firewall Log, IDS Log, and Security Log; the program takes firewall log file to draw a xy-plot graph and undirect graph.
+
+XY-plot graph shows the change in the number of connection/disconnection on each servers as the time goes. The servers includes File Server, Mail Server, Internal Web Server, Database Servers, and DNS servers.
+
+Undirect graph shows the connection/disconnection of the IP Addersses at certain time.
+
+--------------------------------------------------------------------------
+
+Usage (after cmake/make):
+
+Start- ./cnoSituationAware <FirewallLog File1> ... <FirewallLog File n> <,>
+While running - dd/Mmm/yyyy hh:mm:ss (to display the new graph with choice of date & time)
+				[to see the new graph, close the current viewing window.]
+
+---------------------------------------------------------------------------
+
+Bug:
+	Slider Not working due to the segmentation fault.
+	SEGMENTATION fault on the mouse click/moves on the graph viewing window.
+
+---------------------------------------------------------------------------
+
+Future Work:
+	- Fixing the Segmentation bug 
+	- Functions for the IDS and Security Logs
+
+---------------------------------------------------------------------------

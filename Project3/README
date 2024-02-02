@@ -1,0 +1,27 @@
+CEG 7650 Visualization & Image Processing
+
+14 April 2016
+
+This program segments background & foreground using built-in openCV background subtractor.
+After run the program following windows will show up (windows might be top of each other; move windows to see them):
+	Foreground Background Subtraction : moving object from the input video after using BackgroundSubtractorMOG2
+	Background Canny Edge Detection : background scene + Canny Edge Detection 
+									(used Histogram Comparason method to get frames while camera was moving)
+	Visual Image Process : Foreground + Background images (which is equal to output video result)
+	Original Video: original input video for comparason
+	Rectangle Contours: Rectangle Contours on moving objects (Tried)
+
+------------------------------------------------------------------
+
+Usage:
+
+	>> make
+	>> ./bgsubtraction <Input Video File> <Output Video File Name>
+
+Output:
+	
+	<Output Video File Name> will be created
+
+Future Work:
+	- Rectangle Contours : remove small rectangle contours
+	- Background : smooth the background image before canny edge detection

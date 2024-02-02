@@ -1,0 +1,11 @@
+
+Source: Given example c++ file & VTK documentation website.
+
+arguments: data file, globe obj file, globe mtl file
+
+-----------------------------------------------------------
+
+Textfile does not grap doubles.
+
+Orientation is not match to the globe
+Position/origin of the graphmapper is not match to the globe

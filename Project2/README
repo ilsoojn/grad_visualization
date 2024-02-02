@@ -1,0 +1,23 @@
+
+CEG 7650 Visualization & Image Processing
+
+13 March 2016
+
+This program is to find the target and related people as described on the CEG 7650 Visualization & Image Processing Assignment description page. 
+
+Usage: 	
+
+	>> make
+	>> ./content [Entities_Table.txt] [Links_Table.txt] [People-Cities.txt]
+
+Output: 
+	
+	The graph is to help to figure out who are involve in the descriped network community.
+
+	- for all the data, graph network flow.
+	- use 'if' statement in network() function to distinguish people who are 'maybe' related in the comunity. Then removed the vertices of whom are not related.
+
+	There are possible 14 Leader, 100 Handlers, 18 Emplyee, and 766 Middlemen after network() function & if-statement, based on the given discription on the network community.
+
+Future work:
+	Colour ... vertices 
